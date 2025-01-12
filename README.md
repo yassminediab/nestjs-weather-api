@@ -19,7 +19,7 @@ This project is a NestJS-based API that integrates with a weather service to pro
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/nestjs-weather-api.git
+   git clone https://github.com/yassminediab/nestjs-weather-api.git
    cd nestjs-weather-api
    ```
 
