@@ -1,0 +1,21 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Location {
+  id: Float!
+  city: String!
+}
+
+type Query {
+  getLocations: [Location!]!
+}
+
+type Mutation {
+  addLocation(input: AddLocationInput!): Location!
+  removeLocation(id: Float!): Boolean!
+}
+
+input AddLocationInput {
+  locationId: Float!
+}
