@@ -23,6 +23,11 @@ This project is a NestJS-based API that integrates with a weather service to pro
    cd nestjs-weather-api
    ```
 
+1. **Copy .env file**:
+   ```bash
+   cp .env.example .env
+   ```
+
 2. **Run the application using Docker**:
    ```bash
    docker-compose up --build
